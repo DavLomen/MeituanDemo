@@ -1,0 +1,44 @@
+/*头部整体样式*/
+.Header{
+    width: 100%;
+    padding:40px 0;
+    background:#1c1b20;
+}
+
+/*搜索栏样式*/
+.Search{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.Search .location{
+    color: #fff;
+    margin-right: 40px;
+}
+
+.Search .location_icon{
+    vertical-align:middle;
+}
+
+.Search .Search_Input{
+    flex: 1;
+    margin-right:150px;
+    position: relative;
+}
+
+.Search .Search_Input .Search_icon{
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+
+.Search .Search_Input input{
+    width: 100%;
+    padding: 30px 0;
+    border-radius:60px;
+    padding-left:100px;
+    background: #ebebe4;
+
+}
